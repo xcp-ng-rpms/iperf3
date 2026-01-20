@@ -1,6 +1,6 @@
 Name:           iperf3
 Version:        3.9
-Release:        13%{?dist}
+Release:        13.1%{?dist}
 Summary:        Measurement tool for TCP/UDP bandwidth performance
 
 License:        BSD
@@ -56,6 +56,9 @@ rm -f %{buildroot}%{_libdir}/libiperf.la
 %{_libdir}/*.so
 
 %changelog
+* Tue Jan 20 2026 Philippe Coval <philippe.coval@vates.tech> - 3.9-13.1
+- Rebuid for openssl-3
+
 * Tue Jun 11 2024 Michal Ruprich <mruprich@redhat.com> - 3.9-13
 - Resolves: RHEL-29579 - vulnerable to marvin attack if the authentication option is used
 
