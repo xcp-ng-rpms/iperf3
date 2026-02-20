@@ -1,6 +1,6 @@
 Name:           iperf3
 Version:        3.9
-Release:        13.1%{?dist}
+Release:        13.1~XCPNG2710.3%{?dist}
 Summary:        Measurement tool for TCP/UDP bandwidth performance
 
 License:        BSD
